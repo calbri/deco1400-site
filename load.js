@@ -27,7 +27,7 @@ $(document).ready( function () {
         } else if (!(pageIDs.indexOf(id) === -1)) {
             num = pageIDs.indexOf(id) + 1;
             $("#loadResult").html("<a href = '" + num + ".htm'>Page " + num + "</a>" +
-                                 "<p><img src='images/" + num + ".png' />");
+                                 "<p><img src='images/" + num + ".PNG' />");
         }
     });
 });
