@@ -146,10 +146,14 @@ body {
 }
 
 #loadMenu h1 {
-    clear: all;
+    clear: both;
     text-align: center;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 2em;
+}
+
+#loadMenu img {
+    width: 30%;
 }
 
 #aboutPage {
