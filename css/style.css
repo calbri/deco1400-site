@@ -1,0 +1,343 @@
+body {
+    background-image: url("../images/water.jpg");
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+}
+
+#accordion {
+    position: fixed;
+    top: 0;
+    width: 10%;
+    font-size: 10px;
+    opacity: 0.3;
+    min-width: 200px;
+    z-index: 2;
+}
+
+#accordion .ui-accordion-content{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#accordion .ui-accordion-header {
+    text-align: center;
+}
+
+#previews {
+    position: fixed;
+    top: 70%;
+    height: 30%;
+}
+
+#previews img{
+    float: left;
+    width: 25%;
+    height: 100%;
+    opacity: 0;
+}
+
+#interactive {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#desc1img {
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+
+#desc2img {
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#bubbleEffect {
+    position: fixed;
+    top: 0;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+#navbar {
+    margin-top: 40px;
+    color: white;
+}
+
+#navbar ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Arial"
+}
+
+#navbar li {
+    display: inline;
+    background-color: navy;
+    border: 1px, 1px, 1px, 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    margin: 2%;
+}
+
+#navbar li a {
+    color: cyan;
+}
+
+#content {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 60%;
+    color: white;
+    background-image: url("../images/waterContent.jpg");
+    background-repeat: repeat;
+    min-width: 400px;
+    min-height: 90%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    
+}
+
+#aboutContent {
+    margin: 30px;
+}
+
+#aboutContent img{
+    float: left;
+    margin: 0px 10px 10px 10px;
+    height: 150px;
+}
+
+#aboutContent a{
+    color: cyan;
+}
+
+#aboutContent h2{
+    clear: both;
+}
+
+#loadMenu {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 60%;
+    color: white;
+    background-image: url("../images/waterContent.jpg");
+    background-repeat: repeat;
+    min-width: 400px;
+    min-height: 85%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    
+}
+
+#loadMenu h1 {
+    clear: both;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2em;
+}
+
+#loadMenu img {
+    width: 30%;
+}
+
+#aboutPage {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 60%;
+    color: white;
+    background-image: url("../images/waterContent.jpg");
+    background-repeat: repeat;
+    min-width: 400px;
+    min-height: 85%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+
+#aboutPage h1 {
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2em;
+}
+
+#loadForm {
+    margin-top: 50px;
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.2em;
+}
+
+#loadResult {
+    margin-top: 50px;
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.2em
+}
+
+#loadResult a {
+    color: cyan;
+}
+
+#titleScreen {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 60%;
+    color: white;
+    min-width: 400px;
+    min-height: 50%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    
+}
+
+#titleScreen h1 {
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 4em
+}
+
+#titleScreen h2 {
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 2em
+}
+
+#titleScreen h3 {
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.5em
+}
+
+#titleScreen h4 {
+    margin-top: 20px;
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 0.9em
+}
+
+#titleOptions {
+    margin-top: 45px;
+    color: white;
+}
+
+#titleOptions ul {
+    text-align: center;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Arial"
+}
+
+#titleOptions li {
+    display: inline-block;
+    background-color: navy;
+    border-radius: 10px;
+    width: 10%;
+    min-width: 70px;
+    padding: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#titleOptions li a {
+    color: white;
+}
+
+#story img {
+    float: right;
+    width: 40%;
+    margin: 2%
+}
+
+#story {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+    font-family: verdana;
+}
+
+#decision {
+    clear: both;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+
+#decision a {
+    color: aqua;
+    text-decoration: none;
+}
+
+#ending {
+    clear: both;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+
+#ending a {
+    color: aqua;
+    text-decoration: none;
+    padding-top: 5px;
+    display: block;
+    clear:both;
+}
+
+#endingBad {
+    clear: both;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+
+#endingBad a {
+    color: aqua;
+    text-decoration: none;
+    padding-top: 5px;
+    display: block;
+    clear:both;
+}
+
+#branding {
+    clear: all;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#footer {
+}

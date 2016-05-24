@@ -1,0 +1,25 @@
+Images sourced from:
+Journey Under the Sea - 1979 Edition (see pdf in zip)
+Page Background: Epic Games (https://udn.epicgames.com/Two/rsrc/Two/ExampleMapsAdvLighting/Caustics1.jpg)
+Content Background: VTerrain (http://vterrain.org/Water/water512.jpg)
+Page 1 - Decision A background: GoPro scuba dive - Ryan Walk (https://www.youtube.com/watch?v=Vni97k1unxo)
+Page 1 - Decision B background: Mariana Trench - Unique Facts (http://uniquefacts.net/wp-content/uploads/2015/10/12.jpg)
+Page 2 - Decision A background: Bubble Wallpaper - h4Desktop (http://hd4desktop.pw/45664-bubble/)
+Page 2 - Decision B background: Waitomo Caves NZ - imgur (http://imgur.com/gallery/QltGb)
+Page 3 - Decision A background: TopNature.xyz (http://topnature.xyz/seacoral-entertainment-oceans-nature-sea-coral-tree-underwater-ocean-water-hd-pictures/)
+Page 3 - Decision B background: Giant Squid Attacking Ship - StuffPoint (http://stuffpoint.com/cryptozoology/image/275406-cryptozoology-kraken-illustration.jpg)
+Page 4 - Decision A background: Quantum Computing - TechDissected (http://techdissected.com/wp-content/uploads/2015/12/Quantum-Computing-Featured-Image.jpg)
+Page 4 - Decision B background: A Blank Radar - FootageIsland (https://www.youtube.com/watch?v=U_OgNXVyMt8)
+Page 5 - Decision A background: Laser Show - WallpaperUp (http://www.wallpaperup.com/427876/laser_show_concert_lights_color_abstraction_psychedelic.html)
+Page 5 - Decision B background: Ariel's Grotto (http://img4.wikia.nocookie.net/__cb20140809192331/disneyimages/2/2e/Little-mermaid-1080p-disneyscreencaps.com-1684.jpg)
+Page 6 - Decision A background: Giant Squid - h4Desktop (http://hd4desktop.pw/18656-giant-squid-ships-krakken-art-hd-wallpaper/)
+Page 6 - Decision B background: Fifty Meters Deep - WallpaperCave (http://wallpapercave.com/w/PB2kqgH)
+Page 8 - Decision A background: Undersea Volcano - National Science Foundation (http://www.nsf.gov/mobile/news/news_images.jsp?cntn_id=116098&org=NSF)
+Page 8 - Decision B background: Great White Shark - 7Themes (http://7-themes.com/6939544-great-white-shark-wallpaper.html)
+Author Picture: GoodReads (http://d.gr-assets.com/authors/1339072395p5/99100.jpg)
+Choose Your Own Adventure Series: Nerdist (http://nerdist.com/wp-content/uploads/2014/01/ChooseFEAT.jpg)
+Journey Under the Sea cover: GameBooks (http://www.gamebooks.org/gallery/cyoa002o.jpg)
+
+Code snippets:
+Bubble background javascript based off "HTML5 Canvas Demo" by HostGrenade http://blog.hostgrenade.com/2011/06/17/html5-canvas-bubble-demo/
+
